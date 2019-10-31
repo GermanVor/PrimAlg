@@ -1,6 +1,6 @@
 # PrimAlg
 
-Само (приложение)[https://vigorous-elion-210891.netlify.com/] в глобальной сети.
+Само [приложение](https://vigorous-elion-210891.netlify.com/) в глобальной сети.
 
 для запуска из общей директории в консоли запустить static public ( если node-static не установлен глобально - npm install -g node-static , или же можно установить его локально в общую папку проекта )
 
