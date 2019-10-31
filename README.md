@@ -1,4 +1,6 @@
-# PrimAlg
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+## Algoritm Prima
 
 Само [приложение](https://vigorous-elion-210891.netlify.com/) в глобальной сети.
 
