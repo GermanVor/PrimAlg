@@ -39,7 +39,8 @@ class Field extends Component {
     updateDataFlags(value={}){
         for(let key in value){
             //я не могу добиться синхронной работы setState - а это очень важно !!! 
-            this.state[key] = value[key];
+            if( key in this.state ) this.state[key] = value[key];
+            
         }
     }
     AddVertex(){
@@ -206,7 +207,11 @@ class Field extends Component {
       } 
     }
     render(){
-         
+        //необходимо бодавить новый компонент Mous которйы бы принимал в атрибут render 
+        // что то такое 
+            // <Mouse render={mouse => (
+            //  <Vertex mouse={mouse} />
+            // )}/>
         let VertexCollection = this.props.VertexCollection;
         return(  
         <div>
