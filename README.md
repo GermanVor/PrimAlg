@@ -11,4 +11,9 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 кнопка Add - добавить вершину  
 чтобы соединить вершины - двойной клик  
 для перемещения , выделения ребер - одинарный клик  
-кнопка Algoritm - запустить алгоритм
+кнопка Algoritm - запустить алгоритм  
+
+## Пример работы программы  
+![alt text](screenshots/Снимок.PNG)  
+
+![alt text](screenshots/Снимок2.PNG)
