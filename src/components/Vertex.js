@@ -100,7 +100,11 @@ class Vertex extends React.Component {
                 ind : VertexEdgeRef.id.codePointAt(0) - 65, 
                 state : divThis
             });
-            this.props.addEdgeLine(a);
+            this.props.addEdgeLine( { 
+                [key] : {   EdgeValue : value,
+                            Edge : div,
+                            Line : line,}
+             } );
 
             this.props.Paint( divThis, VertexEdgeRef, { Edge : div, Line : line});
           }
