@@ -76,7 +76,7 @@ class Vertex extends React.Component {
           
           let key = Perevod( divThis.id.codePointAt(0) - 65 , VertexEdgeRef.id.codePointAt(0) - 65 );
           if(this.props.EdgeLineObj[key] === undefined){
-            let a = {};
+            // let a = {};
             let value = Math.floor(1 + Math.random() * (50));
 
             let div = document.createElement('div');
@@ -87,10 +87,10 @@ class Vertex extends React.Component {
             let line = document.createElementNS('http://www.w3.org/2000/svg', 'line');
             line.setAttribute('id', 'Line-' + key );
 
-            a[key] = { EdgeValue : value,
-                       Edge : div,
-                       Line : line,
-                    };
+            // a[key] = { EdgeValue : value,
+            //            Edge : div,
+            //            Line : line,
+            //         };
          
             this.props.setVertexState({
                 ind : divThis.id.codePointAt(0) - 65,
