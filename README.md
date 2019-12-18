@@ -2,7 +2,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Algoritm Prima
 
-Само [приложение](https://vigorous-elion-210891.netlify.com/) в глобальной сети.
+Само [приложение](https://prim-alg.netlify.com/) в глобальной сети.
 
 Для запуска:  
 * npm install ( в самой дирректории )  
